@@ -178,3 +178,4 @@ dist_params:
 
 
 python ee4016/train.py -opt /Documents/datasets/EE4016_ProfilePic.yml --auto_resume
+python ee4016/extract_subimages.py --input content/drive/MyDrive/EE4016_DatasetPic/ --output Documents/datasets/EE4016_DatasetPic_sub --crop_size 400 --step 200
