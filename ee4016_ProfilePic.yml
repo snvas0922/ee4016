@@ -175,3 +175,6 @@ logger:
 dist_params:
   backend: nccl
   port: 29500
+
+
+python ee4016/train.py -opt /Documents/datasets/EE4016_ProfilePic.yml --auto_resume
