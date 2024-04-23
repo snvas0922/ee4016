@@ -16,6 +16,16 @@ try_autoamp_g: False
 try_autoamp_d: False
 
 # dataset settings
+  test_1:
+    name: testsetfile
+    type: PairedImageDataset
+    dataroot_gt: /Documents/datasets/ProfilePic
+    dataroot_lq: /Documents/datasets/ProfilePic_h264
+    io_backend:
+      type: disk
+
+
+# dataset settings
 datasets:
   train:
     name: EE4016_ProfilePic
